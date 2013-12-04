@@ -23,7 +23,7 @@ L.Control.ZoomMin = L.Control.Zoom.extend({
      zoomName + '-out', container, this._zoomOut, this)
 
     this._zoomMinButton = this._createButton(options.zoomMinText, options.zoomMinTitle,
-     zoomName + '-global', container, this._zoomMin, this)
+     zoomName + '-min', container, this._zoomMin, this)
 
     this._updateDisabled()
     map.on('zoomend zoomlevelschange', this._updateDisabled, this)
