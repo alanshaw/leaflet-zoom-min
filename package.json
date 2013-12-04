@@ -1,6 +1,6 @@
 {
   "name": "leaflet-zoom-min",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Leaflet control that extends `L.Control.Zoom`. It adds a button to the zoom control that allows you to zoom to the map minimum zoom level in a single click.",
   "main": "L.Control.ZoomMin.js",
   "scripts": {
