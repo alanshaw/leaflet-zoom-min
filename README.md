@@ -17,7 +17,7 @@ Add `leaflet-zoom-min` JS and CSS to your page:
 Add the zoom min control to your map:
 
 ```javascript
-var map = L.map("fleet-map", {
+var map = L.map("map", {
   layers: L.tileLayer("http://{s}.tile.cloudmade.com/API-key/997/256/{z}/{x}/{y}.png"),
   center: [51.505, -0.09],
   zoom: 3,
