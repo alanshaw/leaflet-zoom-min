@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-zoom-min",
+  "version": "0.0.0",
+  "description": "",
+  "main": "L.Control.ZoomMin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanshaw/leaflet-zoom-min.git"
+  },
+  "keywords": [
+    "leaflet",
+    "zoom",
+    "extent",
+    "globe"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanshaw/leaflet-zoom-min/issues"
+  }
+}
