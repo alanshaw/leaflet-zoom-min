@@ -32,6 +32,10 @@ L.Control.ZoomMin = L.Control.Zoom.extend({
   },
 
   _zoomMin: function () {
+    if (this.options.minBounds) {
+      return this._map.fitBounds(this.options.minBounds);
+    }
+
     this._map.setZoom(this._map.getMinZoom())
   },
 
